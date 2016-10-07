@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    tools:context="com.buptnsrc.xy.myportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:text="My Nanodegree Apps"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/movie_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="toastForMovies"
+        android:text="popular movies"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/stock_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="toastForStock"
+        android:text="stock hawk"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/bigger_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="toastForBigger"
+        android:text="build it bigger"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/material_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="toastForMaterial"
+        android:text="make it meterial"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/ubiquitous_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="toastForUbiquitous"
+        android:text="go ubiquitous"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/capstone_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="toastForCapstone"
+        android:text="capstone"
+        android:textAllCaps="true" />
+
+</LinearLayout>
